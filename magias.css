@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: goldenrod;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 8px 8px 6px darkgoldenrod;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+figure {
+    margin: 1em 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: goldenrod;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.botao-link {
+  display: inline-block;
+  background-color: yellow;  /* Cor de fundo amarela */
+  color: black;               /* Cor do texto */
+  padding: 10px 20px;         /* Espaço interno */
+  border-radius: 5px;         /* Cantos arredondados */
+  text-decoration: none;      /* Remove sublinhado padrão */
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.botao-link:hover {
+  background-color: darkgoldenrod;  /* Cor ao passar o mouse */
+  text-decoration: underline; /* Adiciona sublinhado no hover */
+}
