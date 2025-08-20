@@ -1,3 +1,4 @@
+/* Estilo geral do corpo */
 body {
     background-color: black;
     color: goldenrod;
@@ -6,17 +7,34 @@ body {
     text-align: center;
     font-size: 30px;
     text-shadow: 8px 8px 6px darkgoldenrod;
+    margin: 0;
+    padding: 0 20px; /* Espaço lateral para respiro */
+    overflow-y: auto;
+    min-height: 100vh;
 }
 
+/* Corrige altura da página e ativa rolagem */
+html, body {
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+/* Título principal */
 h1 {
     color: goldenrod;
     text-align: center;
 }
 
+/* Parágrafos com melhor leitura */
 p {
     margin-bottom: 1em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
 
+/* Figuras e imagens */
 figure {
     margin: 1em 0;
     text-align: center;
@@ -32,30 +50,29 @@ figcaption {
     color: goldenrod;
 }
 
+/* Links */
 a {
     color: goldenrod;
     text-decoration: underline;
 }
 
+/* Botão estilizado */
 .botao-link {
-  display: inline-block;
-  background-color: yellow;  /* Cor de fundo amarela */
-  color: black;               /* Cor do texto */
-  padding: 10px 20px;         /* Espaço interno */
-  border-radius: 5px;         /* Cantos arredondados */
-  text-decoration: none;      /* Remove sublinhado padrão */
-  font-weight: bold;
-  transition: all 0.3s ease;
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 .botao-link:hover {
-  background-color: darkgoldenrod;  /* Cor ao passar o mouse */
-  text-decoration: underline; /* Adiciona sublinhado no hover */
-
+    background-color: darkgoldenrod;
+    text-decoration: underline;
 }
-html, body {
-    min-height: 100vh;       /* Garante que o body tenha pelo menos a altura da tela */
-    overflow-y: auto;        /* Permite rolagem vertical */
-    margin: 0;
+
     padding: 0 20px;         /* Espaço lateral opcional para respiro */
 }
+
