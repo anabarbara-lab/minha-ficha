@@ -13,25 +13,22 @@ body {
     min-height: 100vh;
 }
 
-/* Corrige altura da página e ativa rolagem */
 html, body {
     overflow-y: auto;
     min-height: 100vh;
 }
 
-/* Título principal */
 h1 {
     color: goldenrod;
     text-align: center;
 }
 
-/* Parágrafos com melhor leitura */
 p {
     margin-bottom: 1em;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Figuras e imagens */
@@ -75,4 +72,5 @@ a {
 
     padding: 0 20px;         /* Espaço lateral opcional para respiro */
 }
+
 
