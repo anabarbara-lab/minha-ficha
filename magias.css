@@ -52,3 +52,9 @@ a {
   background-color: darkgoldenrod;  /* Cor ao passar o mouse */
   text-decoration: underline; /* Adiciona sublinhado no hover */
 }
+
+.botao-link:hover {
+  background-color: darkgoldenrod;  /* Cor ao passar o mouse */
+  text-decoration: underline; /* Adiciona sublinhado no hover */
+
+}
